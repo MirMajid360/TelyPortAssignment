@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_rounded_corners"
+    android:layout_margin="6dp"
+    android:padding="6dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="hhjjksjdjjsjkjbhjsd kjsdjsdjk jkskjsd jdnkjndkj jnksdks ljsjds klkslds klksdlkfs klklds klfsdkf klnfklsd lkfskld dsjdsjkdjsjbsdbhjesdbsfdsjbsdjdjsfdhfhsdbfhsdbfhdsbfdhsbfdhbfdjhd"
+        android:textSize="18sp"
+        android:lineHeight="20dp"
+        android:textColor="@color/black"
+        android:justificationMode="inter_word"
+        android:textFontWeight="900"
+        android:id="@+id/tvText"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textFontWeight="500"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvText"
+        app:layout_constraintEnd_toStartOf="@id/tvTime"
+        android:text="by Majid "
+        android:layout_marginTop="6dp"
+        android:textSize="16sp"
+        android:lineHeight="20dp"
+        android:id="@+id/tvAuthor"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textFontWeight="500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvAuthor"
+        app:layout_constraintTop_toBottomOf="@id/tvText"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="time Stamp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp"
+        android:lineHeight="20dp"
+        android:id="@+id/tvTime"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
